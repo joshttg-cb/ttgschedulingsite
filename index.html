@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+<title>Book a Showing | The Talley Group</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://i.ibb.co/gScRr1P/logo-blue-noback.png" />
+<link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='assets/css/animate.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%2C800%7CMontserrat%3A300italic%2C400italic%2C700italic%2C300%2C400%2C700%7CDosis%3A400%2C700&#038;ver=4.5' type='text/css' media='all'/>
+<link rel='stylesheet' href='icons/elegantline/style.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='assets/css/flexslider.css' type='text/css' media='all'/>
+
+<style>
+
+.image-size {
+  width: 25%; /* change the percentage to adjust the width of the image */
+  height: auto; /* set height to auto to maintain aspect ratio */
+}
+
+/* style for the link */
+  a {
+    text-decoration: none; /* remove underline */
+    font-weight: bold; /* set bold */
+    cursor: pointer; /* change cursor */
+    color: white; /* set text color */
+  }
+  
+  /* style for the link when hovered over */
+  a:hover {
+    cursor: pointer; /* set different text color */
+  }
+
+</style>
+
+</head>
+<body class="frontpage">
+<div class="page-loader">
+	<img src="assets/img/loader.gif" alt="loader">
+</div>
+
+<!-- Header
+================================================== -->
+<header id="header">
+<div id="mega-menu" class="header header2 header-sticky primary-menu icons-no default-skin zoomIn align-right">
+	<nav class="navbar navbar-default redq">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+			<img src="https://i.ibb.co/6yKpR2P/TTG-logo-v3.png" alt="logo" class="image-size">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<a class="mobile-menu-close"><i class="fa fa-close"></i></a>
+			<div class="menu-top-menu-container">
+				<ul id="menu-top-menu" class="nav navbar-nav nav-list">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container -->
+	</nav>
+</div>
+</header>	
+
+<!-- INTRO
+================================================== -->
+<section id="home" style="padding:160px 0;background-image: url(https://i.ibb.co/VpzLJPf/qw.jpg); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
+	<div class="container">
+		<div class="textwidget">
+			<h1 class="toptitle">SCHEDULE A SHOWING with<br/> THE TALLEY GROUP  <br/><br/><i class="fa fa-star roundicon"></i>
+			</h1>								
+			<div class="contactstyle topform">										
+				<form method="post" action="contact/topcontact.php" id="topcontactform">
+					<div class="form">
+						<input type="text" name="name" placeholder="Name *">
+						<input type="text" name="email" placeholder="E-mail *">
+						<input type="text" name="phone" placeholder="Phone *">
+						<input class="form-control" placeholder="Any" type="datetime-local" name="Any" id="datetime-input">
+
+						<script>
+						// Get the current date and time and set it as the minimum date-time for the input field
+						var now = new Date().toISOString().slice(0, 16);
+						document.getElementById("datetime-input").setAttribute('min', now);
+
+						// Disable past date-times in the input field
+						var datetimeInput = document.getElementById("datetime-input");
+						datetimeInput.addEventListener('input', function() {
+						  var selectedDatetime = new Date(datetimeInput.value);
+						  var now = new Date();
+						  if (selectedDatetime < now) {
+						    datetimeInput.value = '';
+						    alert("Please select a future date and time.");
+						  }
+						});
+						</script>
+
+						<input type="submit" id="submit" class="clearfix btn" value="Set schedule">
+					</div>
+				</form>
+				<div class="done">
+					<div class="alert alert-success">
+						<button type="button" class="close" data-dismiss="alert">×</button>
+						Booking schedule request has been set. Please wait for our admin to contact you via phone call or email for confirmation. Thank you!
+					</div>
+				</div>
+			</div>								
+		</div>
+		</div>
+</section>
+
+<!-- ABOUT
+================================================== -->
+<section id="about" class="whitetext" style="padding:60px;background-color:#2d325a;" >
+	<div class="container">
+		<div class="so-widget-sow-headline">
+			<div class="sow-headline">
+				<h1 class="whitetext">YOUR EXPERT REALTORS</h1>
+			</div>
+		</div>
+		<br/>
+		<div class="w960 text-center">
+		<p>
+			 The Talley Group is a team of people who love what they do. The unique mix of personalities and strengths each member brings to the team has created a special office culture that not everyone gets the privilege to experience in a lifetime. With consistent coordination and a winning team mentality, bringing the best customer experience to everyone who walks through your doors becomes easy. This is our aim at The Talley Group, and we hope you can feel our sense of pride and commitment to the service we provide. 
+		</p>
+		<p>
+			Travis Talley leads with genuine passion and a commitment to excellence that runs through the hearts and minds of everyone else he brings onto the team. He and his team keep abreast of the real estate industry with continuing education, extensive knowledge of the area, and a hand on the pulse of the local real estate market. 
+		</p>
+		<p>
+			Every buyer and seller is matched with the right team members to help them achieve their goals. Luxury buyers, investors, relocating military families, and all types of sellers are served well from the moment they are greeted by the Client Services staff, to walking through every step alongside an experienced Transaction Coordinator, to completing the process at the closing table. 
+		</p>
+		<p>
+			With over 20 years of experience, this top-producing team is committed to excellence in all aspects of your real estate transaction. Join The Talley Group family and experience the difference.
+		</p>
+		</div>
+							
+	</div>
+</section>
+
+<!-- TEAM
+================================================== -->
+<section id="team" class="panel-grid">
+	<div class="nopadding">
+		<!-- #person1 -->
+		<div class="col-md-4" style="background:#141414;">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img src="https://i.ibb.co/vjPXZj7/travis.jpg" alt="" class="img-responsive">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								 Travis is one of the most considerate people you’ll ever meet. He transitioned from a prominent career in business consulting to start fresh and pursue his interest in real estate... <a href="https://propertyonthegulfcoast.com/meet-the-team/travis-talley/">read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>TRAVIS TALLEY</h2>
+					<p>
+						Broker Associate & CEO
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href="https://www.facebook.com/FloridaGulfCoastRealEstateProperties"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/thetalleygroup/"><i class="fa fa-instagram"></i></a>
+					<a href="https://g.co/kgs/uz87Fi"><i class="fa fa-google"></i></a>
+					<a href="https://www.yelp.com/biz/travis-talley-keller-williams-realty-gulf-breeze"><i class="fa fa-yelp"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- #person2 -->
+		<div class="col-md-4" style="background:#2494a2;">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img src="https://i.ibb.co/JCBqHx1/nancy.jpg" alt="" class="img-responsive">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								 Nancy Branning joined The Talley Group as the Buyer’s Specialist and has become the “glue” that keeps the office together... <a href="https://propertyonthegulfcoast.com/meet-the-team/nancy-branning/">read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>NANCY BRANNING</h2>
+					<p>
+						Buyers Specialist
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href="https://www.facebook.com/nancy.branning.39"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/nancybranning/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.zillow.com/profile/NancyBranning/"><i class="fa fa-home"></i></a>
+				</div>
+			</div>	
+		</div>
+		<!-- #person3 -->
+		<div class="col-md-4" style="background:#141414;">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img src="https://i.ibb.co/kGRB635/drew.jpg" alt="" class="img-responsive">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								 Drew Banks is the definition of a hard-working Southerner. Growing up on the Florida and Alabama Coast, he has spent much of his life enjoying and appreciating...<a href="https://propertyonthegulfcoast.com/meet-the-team/drew-banks/">read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>DREW BANKS</h2>
+					<p>
+						Licensed Real Estate Agent
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href="https://www.facebook.com/drew.banks.10"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/drewbanksusm/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.zillow.com/profile/drewbanksgulfcoast/"><i class="fa fa-home"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- end #3 -->
+		<div class="col-md-1" style="background:#ffffff;">
+		</div>
+		<!-- #person4 -->
+		<div class="col-md-4" style="background:#141414;">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img src="https://i.ibb.co/dBRhLjX/greyson.jpg" alt="" class="img-responsive">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								 The Talley Group is honored to have Greyson Calhoun as a member of the team, for he has spent many years serving our country in the Air National Guard. So many clients move to the Gulf Coast for or after military service, and we are proud...<a href="https://propertyonthegulfcoast.com/meet-the-team/greyson-calhoun/">read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>GREYSON CALHOUN</h2>
+					<p>
+						Licensed Real Estate Agent
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href="https://www.facebook.com/greyson.calhoun.3"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/g_m_c_16/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.zillow.com/profile/greysoncalhoun/"><i class="fa fa-home"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- end #4 -->
+		<div class="col-md-2" style="background:#ffffff;">
+		</div>
+		<!-- #person5 -->
+		<div class="col-md-4" style="background:#2494a2;">
+			<div class="team-boxes">
+				<div class="team-thumb overlay-image view-overlay">
+					<img src="https://i.ibb.co/BrtMpvv/brandee.jpg" alt="" class="img-responsive">
+					<div class="clear">
+					</div>
+					<div class="mask team_quote">
+						<div class="port-zoom-link">
+							<p>
+								 Brandee Cassell’s track record speaks for itself, as she has been a Multi-million Dollar Producer for an impressive 19 consecutive years, even in the toughest of markets. Her exceptional production is a testament...<a href="https://propertyonthegulfcoast.com/meet-the-team/brandee-cassell/">read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-info">
+					<h2>BRANDEE CASSELL</h2>
+					<p>
+						Licensed Real Estate Agent
+					</p>
+				</div>
+				<div class="separator">
+				</div>
+				<div class="team-social">
+					<a href="https://www.facebook.com/brandee.walker"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/teambrandeecassell/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.zillow.com/profile/BrandeeCassell/"><i class="fa fa-home"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- end #5 -->
+		<div class="col-md-1" style="background:#ffffff;">
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+
+<!-- SERVICES
+================================================== -->		
+<section id="services" class="services margintop60">
+	<div class="container">
+		<div class="sow-headline">
+			<h1>SERVICES</h1>
+			<div class="decoration">
+				<div class="decoration-inside">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>01. Property Listing & Marketing</h3>
+				 Our optimized property listings use targeted keywords and detailed descriptions to ensure maximum visibility and attract potential buyers or renters to your property. Our data-driven marketing campaigns leverage the latest SEO practices and social media strategies to increase exposure, generate leads, and drive traffic to your property listing.
+				<h3>02. Property Valuation</h3>
+				 Our team of experienced realtors uses advanced valuation tools and in-depth market analysis to provide accurate and reliable property valuations.
+				<h3>03. Property Showings</h3>
+				 We offer both virtual and in-person property showings, using high-quality media and tours available online to provide an immersive and engaging experience for potential buyers or renters.
+			</div>
+			<div class="col-md-6">
+				<h3>04. Negotiations</h3>
+				 Our skilled negotiators use proven techniques and strategies to negotiate the best possible price and terms for your property, ensuring a successful transaction.
+				<h3>05. Transaction Management</h3>
+				 Our comprehensive transaction management services cover all aspects of the real estate transaction process, from contract preparation and review to closing coordination and beyond.
+				<h3>06. Consultation & Advice</h3>
+				 Our expert team provides personalized consultation and advice on a range of real estate matters, including investment strategies, property management, and legal requirements, to help you make informed decisions.
+			</div>
+		</div>
+	</div>
+</section>
+	
+<!-- COUNTERS
+================================================== -->
+<!-- <section id="counters" class="margintop60 paddingtop100 paddingbottom100" style="background-image:url(https://unsplash.it/1400/600?random=4);background-size:cover;background-attachment:fixed;">-->
+	<!--<div class="container">	-->
+		<!-- #1 -->
+		<!--<div class="col-md-4">
+			<div class="funfacts text-center">
+				<div class="icon">
+					<span class="sow-icon-elegantline" data-sow-icon=""></span>
+				</div>
+				<h2 class="counter" style="color: #ffffff">823</h2>
+				<h4>Pictures Taken</h4>
+			</div>
+		</div>	-->
+		<!-- #2 -->
+		<!--<div class="col-md-4">
+			<div class="funfacts text-center">
+				<div class="icon">
+					<span class="sow-icon-elegantline" data-sow-icon=""></span>
+				</div>
+				<h2 class="counter" style="color: #ffffff">354</h2>
+				<h4>Lovely Customers</h4>
+			</div>
+		</div>	-->
+		<!-- #3 -->
+		<!--<div class="col-md-4">
+			<div class="funfacts text-center">
+				<div class="icon">
+					<span class="sow-icon-elegantline" data-sow-icon=""></span>
+				</div>
+				<h2 class="counter" style="color: #ffffff">637</h2>
+				<h4>Hearts Sent</h4>
+			</div>
+		</div>	-->
+		<!-- #end3 -->
+	<!--</div>			
+</section>-->
+
+<!-- PRICING
+================================================== 
+<section id="pricing" class="margintop60 ow-pt-columns-atom">
+	<div class="container">
+		<div class="sow-headline">
+			<h1><b>PRICING</b></h1>
+		</div>
+		<br/>	
+		<div class="col-md-4 ow-pt-column ow-pt-first ow-pt-even">
+			<div class="ow-pt-title">
+				 EXPERTUM THEME
+				<div class="ow-pt-subtitle">
+					One Page WordPress
+				</div>
+			</div>
+			<div class="ow-pt-details">
+				<div class="ow-pt-price">
+					$35
+				</div>
+				<div class="ow-pt-per">
+					One Time
+				</div>
+			</div>
+			<div class="ow-pt-features">
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 Wordpress Theme
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-odd">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 One Page
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 Page Builder
+					</p>
+				</div>
+			</div>
+			<div class="ow-pt-button">
+				<a href='https://www.wowthemes.net/themes/expertum/' class="ow-pt-link">Buy Now</a>
+			</div>
+		</div>
+		
+		<div class="col-md-4 ow-pt-column ow-pt-featured ow-pt-odd">
+			<div class="ow-pt-title">
+				 ALL THEMES PACKAGE
+				<div class="ow-pt-subtitle">
+					by WowThemes.net
+				</div>
+			</div>
+			<div class="ow-pt-details">
+				<div class="ow-pt-price">
+					$89
+				</div>
+				<div class="ow-pt-per">
+					Per Year
+				</div>
+			</div>
+			<div class="ow-pt-features">
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 Yours Forever
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-odd">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 1 Year Support
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 1 Year Updates
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-odd">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 All Themes
+					</p>
+				</div>
+			</div>
+			<div class="ow-pt-button">
+				<a target="_blank" href='https://www.wowthemes.net/themes/all-themes-package/' class="ow-pt-link">Join Membership</a>
+			</div>
+		</div>
+		
+		<div class="col-md-4 ow-pt-column ow-pt-last ow-pt-even">
+		<div class="ow-pt-title">
+				 EXPERTUM THEME
+				<div class="ow-pt-subtitle">
+					One Page WordPress
+				</div>
+			</div>
+			<div class="ow-pt-details">
+				<div class="ow-pt-price">
+					$35
+				</div>
+				<div class="ow-pt-per">
+					One Time
+				</div>
+			</div>
+			<div class="ow-pt-features">
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 Wordpress Theme
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-odd">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 One Page
+					</p>
+				</div>
+				<div class="ow-pt-feature ow-pt-feature-even">
+					<span class="sow-icon-fontawesome" data-sow-icon="&#xf00c;"></span>
+					<p>
+						 Page Builder
+					</p>
+				</div>
+			</div>
+			<div class="ow-pt-button">
+				<a href='https://www.wowthemes.net/themes/expertum/' class="ow-pt-link">Buy Now</a>
+			</div>
+		</div>
+	</div>
+</section>-->
+		
+
+<!-- TESTIMONIAL
+================================================== -->
+<section id="testimonial" class="margintop60 paddingtop100 paddingbottom100" style="background-image:url(https://i.ibb.co/NLxRJQB/pensacola-9.jpg);background-size:cover;background-attachment:fixed;">
+	<div class="container">
+		<div class="sow-testimonials">
+			<div class="flexslider testimonials-wrapper text-center">
+				<ul class="slides">
+					<li>
+					<p>
+						My wife and I really Appreciate the job that Travis and his team done for us. They helped us in ways that I would have never thought of. They were very professional in every way . If we ever decide to sell again, They are at the top of the list. I highly recommend , Great Job Guys. Thank You.
+					</p>
+					<strong class="signature">- Jimmy Boyett</strong>
+					</li>
+					<li>
+					<p>
+						Travis and his team were totally professional and helpful in helping us buy our new property. Their communication was excellent and every one could not have been more friendly/helpful. I only give them 5 stars because 6 was not available!
+					</p>
+					<strong class="signature">- Robert Schick</strong>
+					</li>
+					<li>
+					<p>
+						“First class all the way” is the only way we would describe our experience with the Travis Talley Group! Our acquisition of a wonderful, historic home in Pensacola was done long-distance, and no step would have been possible without everyone’s assistance, knowledge, expertise, and personal dedication to a successful purchase. Each and every member of the Travis Talley family made efforts to not only take us through each step efficiently and professionally, but they did so with the best attitudes and a personal touch, going above and beyond at every turn. We truly feel as though they are part of our family now!
+					</p>
+					<strong class="signature">- Nellie T.</strong>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<br/>
+		<div class="text-center whitetext">
+			<h1>BECOME OUR NEXT CLIENT</h1>
+			<h2 style="margin-top:10px;">Call Us - (850) 916-5800</h2>
+		</div>
+	</div>
+</section>
+
+<!-- BLOG
+================================================== -->
+<section id="blog" class="margintop60">
+	<div class="container">			
+		<div class="sow-headline">
+			<h1><b>BLOG</b></h1>
+		</div>
+		<br/>
+		<div class="so-widget-sow-post-carousel so-widget-sow-post-carousel-base">
+			<ul class="tline-holder">
+				<!-- tline ITEM-->
+				<li>
+				<div class="tline-item-content">
+					<a href="https://propertyonthegulfcoast.com/moving-to-pensacola-get-prepared-with-our-top-10-tips/">
+					<div class="date-icon fa fa-link">
+					</div>
+					</a>
+					<div class="tline-item-txt">
+						<div class="meta">
+							 March 28, 2023
+						</div>
+						<h3><a href="#">Moving to Pensacola? Get Prepared with Our Top 10 Tips</a></h3>
+						<p>
+							 Are you considering a move to the Gulf Coast in Pensacola, Florida? Congratulations, you’re in for a t...
+						</p>
+					</div>
+				</div>
+				</li>
+				<!-- /tline-->
+				<!-- tline ITEM-->
+				<li>
+				<div class="tline-item-content">
+					<a href="https://propertyonthegulfcoast.com/buyers/8-steps-to-buying-a-home/">
+					<div class="date-icon fa fa-link">
+					</div>
+					</a>
+					<div class="tline-item-txt">
+						<div class="meta">
+							 January 16, 2018
+						</div>
+						<h3><a href="#">8 Steps to Buying a Home</a></h3>
+						<p>
+							 1. Decide to buy. Although there are many good reasons for you to buy a ho ...
+						</p>
+					</div>
+				</div>
+				</li>
+				<!-- /tline-->
+				<!-- tline ITEM-->
+				<li>
+				<div class="tline-item-content">
+					<a href="https://propertyonthegulfcoast.com/buyers/home-buying-tips/">
+					<div class="date-icon fa fa-link">
+					</div>
+					</a>
+					<div class="tline-item-txt">
+						<div class="meta">
+							 June 12, 2017
+						</div>
+						<h3><a href="#">Home Buying Tips</a></h3>
+						<p>
+							 In our experience, a house is not a dream home because of its size or color. It’s about how you feel when you w ...
+						</p>
+					</div>
+				</div>
+				</li>
+				<!-- /tline-->
+				<li class="tline-start">
+				<div class="tline-start-content">
+					<div class="tline-start-icon">
+					</div>
+					<a href="https://propertyonthegulfcoast.com/blog/" class="btn btn-inverse wow zoomIn">More</a>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+		
+<!-- CONTACT
+================================================== -->
+<section id="contact" class="margintop60 nopadding" style="background:#292929;">
+		<div class="col-md-6 whitetext" style="padding: 60px;">
+			<div class="textwidget">
+				<div class="bookarea">
+					 CONTACT<br>
+					<span class="bordered">The Talley Group </span><br>
+					<span class="call">(850) 916-5800</span><br>
+					<span class="call">911 GULF BREEZE PKWY., SUITE A GULF BREEZE, FL 32561</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 whitetext" style="padding: 60px; background-color: #2d325a;">
+			<div class="textwidget">
+				<h2 class="box">We want to hear from <b>you!</b></h2>						
+				<div class="bottomform">										
+					<form method="post" action="contact/bottomcontact.php" id="bottomcontactform">
+						<div class="form">
+							<div class="row">
+								<span class="col-md-6">
+									<input type="text" name="namebottom" placeholder="Name *">
+								</span>
+								
+								<span class="col-md-6">
+									<input type="text" name="emailbottom" placeholder="E-mail *">
+								</span>
+									
+							</div>
+							<div class="clearfix"></div>
+							<textarea name="comment" rows="7" placeholder="Message *"></textarea>
+							<input type="submit" id="submit2" class="clearfix btn" value="Send">
+						</div>
+					</form>
+					<div class="done2">
+						<div class="alert alert-success">
+							<button type="button" class="close" data-dismiss="alert">×</button>
+							Your message has been sent. Thank you!
+						</div>
+					</div>
+				</div>						
+			</div>
+		</div>
+		<div class="clearfix"></div>
+</section>
+<!-- THE END OF SECTIONS -->	
+	
+<!-- FOOTER
+================================================== -->
+<footer id="footer" class="footer2">
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="footer-menu">
+						<ul id="menu-footer-links" class="menu">
+							<li><a href="https://www.facebook.com/FloridaGulfCoastRealEstateProperties"><i class="fa fa-facebook"></i> Like us on Facebook</a></li>
+							<li><a href="https://www.instagram.com/thetalleygroup/"><i class="fa fa-instagram"></i> Follow us on Instagram</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- SCRIPTS
+================================================== -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="contact/topvalidate.js"></script>
+<script src="contact/bottomvalidate.js"></script>
+
+</body>
+</html>
